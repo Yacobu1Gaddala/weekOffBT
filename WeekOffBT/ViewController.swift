@@ -11,6 +11,8 @@ class ViewController: UIViewController {
     
     lazy var homeTableView: UITableView = {
         let tableView = UITableView()
+        tableView.delegate = self
+        tableView.dataSource = self
         return tableView
         
     }()
