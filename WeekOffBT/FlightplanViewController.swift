@@ -27,7 +27,7 @@ class FlightplanViewController: UIViewController {
 
 }
 
-extension LoginViewController: UITableViewDelegate, UITableViewDataSource {
+extension FlightplanViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
